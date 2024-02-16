@@ -32,23 +32,25 @@ This project is a RESTful API for managing blog posts and users. It provides end
    ```bash
    cd blog-rest-api
    npm install
-3.Set up environment variables:
+3. Set up environment variables:
 
    Create a .env file in the root directory.
    Define the following environment variables in the .env file:
    makefile
-   Copy code
+   
    PORT=5000
+   
    MONGODB_URI=mongodb://localhost:27017/blog-db
+   
    JWT_SECRET=your_jwt_secret
 
 
-4. Start the server:
+5. Start the server:
 
     ```bash
        npm start
 
-5. API Endpoints:
+6. API Endpoints:
 
    Authentication
    POST /api/users/signUp: Register a new user.
