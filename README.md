@@ -54,17 +54,27 @@ This project is a RESTful API for managing blog posts and users. It provides end
 
    Authentication
    POST /api/users/signUp: Register a new user.
+   
    POST /api/users/login: Log in an existing user.
+   
    POST /api/users/logout: Log out the current user (requires authentication).
+   
    Blog Posts
+   
    GET /api/blogs: Retrieve all blog posts.
+   
    POST /api/blogs/add: Add a new blog post (requires authentication).
+
    GET /api/blogs/:id: Retrieve a specific blog post by ID.
+   
    PUT /api/blogs/update/:id: Update a specific blog post by ID (requires authentication).
+   
    DELETE /api/blogs/:id: Delete a specific blog post by ID (requires authentication).
+   
    GET /api/blogs/users/:id: Retrieve all blog posts belonging to a specific user (requires authentication).
 
-Contributing
+<h2>Contributing</h2>
+
 Contributions are welcome! If you have suggestions, feature requests, or found a bug, please open an issue or submit a pull request.
 
 License
