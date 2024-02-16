@@ -46,8 +46,8 @@ JWT_SECRET=your_jwt_secret
 
 Start the server:
 
-Copy code
-npm start
+    ```bash
+       npm start
 
 API Endpoints:
 
